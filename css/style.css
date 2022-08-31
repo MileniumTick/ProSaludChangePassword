@@ -27,6 +27,7 @@ img {
 }
 
 .btn-1 {
+  text-decoration: none;
   line-height: 32px;
   display: flex;
   flex-direction: column;
