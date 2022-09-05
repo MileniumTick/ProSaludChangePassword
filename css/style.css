@@ -29,6 +29,7 @@ img {
 .header{
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .header select{
@@ -43,7 +44,7 @@ img {
 }
 
 .header h2{
-  margin-top: 35px;
+  margin-top: 65px;
 }
 
 .btn-1 {
