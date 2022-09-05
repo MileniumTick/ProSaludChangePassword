@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>ProSalud MFA and SSPR Portal</title>
-    <link rel="shortcut icon" href="https://alimentosprosalud.com/wp-content/uploads/2019/07/cropped-favicon-32x32.png"
-        type="image/x-icon">
-</head>
+    <link
+      rel="shortcut icon"
+      href="https://alimentosprosalud.com/wp-content/uploads/2019/07/cropped-favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="image">
-            <img src="./images/MicrosoftTeams-image.png" alt="ProSalud">
-        </div>
-        <div class="rigth">
+      <div class="image">
+        <img src="./images/MicrosoftTeams-image.png" alt="ProSalud" />
+      </div>
+      <div class="rigth">
+        <div class="header">
             <h2>Administra el inicio de sesión de tu cuenta</h2>
-            <p>Se puede administrar fácilmente los métodos que utilizas para iniciar sesión de forma segura en tu
-                Cuenta de Unilever o
-                restablecer tu contraseña de Unilever, en cualquier dispositivo,en cualquier momento, en cualquier
-                lugar.</p>
-            <div class="links">
-                <a class="btn-1" href="https://mysignins.microsoft.com/security-info" target="_blank">
-                    Registrarse o actualizar detalles de MFA y SSPR
-                </a>
-
-                <a class="btn-1" href="https://account.activedirectory.windowsazure.com/ChangePassword.aspx"
-                    target="_blank">
-                    Cambiar su contraseña
-                </a>
-                <a class="btn-1" href="https://passwordreset.microsoftonline.com" target="_blank">
-                    Restablecer su contraseña
-
-                </a>
-            </div>
-
+            <select name="lenguajes" id="lenguajes" onchange="showLenguaje()">
+                <option value="Español">Español</option>
+                <option value="Ingles">English</option>
+            </select>
         </div>
+        <p>
+          Se puede administrar fácilmente los métodos que utilizas para iniciar
+          sesión de forma segura en tu Cuenta de Unilever o restablecer tu
+          contraseña de Unilever, en cualquier dispositivo,en cualquier momento,
+          en cualquier lugar.
+        </p>
+        <div class="links">
+          <a
+            class="btn-1"
+            href="https://mysignins.microsoft.com/security-info"
+            target="_blank"
+          >
+            Registrarse o actualizar detalles de MFA y SSPR
+          </a>
+
+          <a
+            class="btn-1"
+            href="https://account.activedirectory.windowsazure.com/ChangePassword.aspx"
+            target="_blank"
+          >
+            Cambiar su contraseña
+          </a>
+          <a
+            class="btn-1"
+            href="https://passwordreset.microsoftonline.com"
+            target="_blank"
+          >
+            Restablecer su contraseña
+          </a>
+        </div>
+      </div>
     </div>
     <!-- <footer>
 
@@ -54,10 +73,11 @@
                 </video>
             </div>
         </footer> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
