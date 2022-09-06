@@ -19,17 +19,17 @@ const showLenguaje = () => {
     if(lenguajes.value === "Ingles"){
         title.textContent = "Manage the login of your account"
         speech.textContent = "You can easily manage the methods you use to securely log in to your Unilever Account or reset your Unilever password, on any device, anytime, anywhere."
-        btn1.textContent = "Register or update your MFA and SSPR details";
-        btn2.textContent = "Change your password"
-        btn3.textContent = "Reset your password"
+        btn1.textContent = "Reset / Unlock account";
+        btn2.textContent = "Change account password"
+        btn3.textContent = "Register or Update MFA media"
     }
 
     if(lenguajes.value === "Español"){
         title.textContent = "Administra el inicio de sesión de tu cuenta"
         speech.textContent = "Se puede administrar fácilmente los métodos que utilizas para iniciar sesión de forma segura en tu Cuenta de Unilever o restablecer tu contraseña de Unilever, en cualquier dispositivo,en cualquier momento, en cualquier lugar."
-        btn1.textContent = "Registrarse o actualizar tus detalles de MFA y SSPR"
-        btn2.textContent = "Cambiar su contraseña"
-        btn3.textContent = "Restablecer su contraseña"
+        btn1.textContent = "Restablecer / Desbloquear cuenta"
+        btn2.textContent = "Cambiar contraseña de cuenta"
+        btn3.textContent = "Registrar o Actualizar medios de MFA"
     }    
 
 }
