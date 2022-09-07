@@ -15,9 +15,9 @@ const showLenguaje = () => {
   const contactText = rigth.children[4];
 
   if (lenguajes.value === "Ingles") {
-    title.textContent = "Manage the login of your account";
+    title.textContent = "Self-Service Password Reset";
     speech.textContent =
-      "You can easily manage the methods you use to securely log in to your Unilever Account or reset your Unilever password, on any device, anytime, anywhere.";
+      "Easily and securely reset, change and manage the methods you use to log in to your Alimentos Prosalud account.";
     secondaryText.textContent = "Select the option you wish to perform:";
     btn1.textContent = "Reset / Unlock account";
     btn2.textContent = "Change account password";
@@ -34,12 +34,12 @@ const showLenguaje = () => {
               >soporte@prosalud.com</a
             >
           </p><br>
-          <p class="footer">Food Technology Department Prosalud</p>
+          <p class="footer">IT Department - Alimentos Prosalud</p>
         </div>`;
   }
 
   if (lenguajes.value === "Español") {
-    title.textContent = "Administra el inicio de sesión de tu cuenta";
+    title.textContent = "Autoservicio Restablecimiento de Contraseña ";
     speech.textContent =
       "Restablezca, cambie y administre de forma fácil y segura los métodos que utiliza para iniciar sesión en tu cuenta de Alimentos Prosalud.";
     secondaryText.textContent = "Seleccione la opción que requiere realizar:";
