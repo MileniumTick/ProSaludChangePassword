@@ -55,6 +55,7 @@ img {
 
 .btn-1 {
   text-decoration: none;
+  border:1px solid #bcb9b9;
   line-height: 32px;
   display: flex;
   flex-direction: column;
