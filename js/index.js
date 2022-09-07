@@ -13,7 +13,6 @@ const showLenguaje = () => {
   const btn2 = buttons.children[1];
   const btn3 = buttons.children[2];
   const contactText = rigth.children[4];
-  const footerText = rigth.children[5];
 
   if (lenguajes.value === "Ingles") {
     title.textContent = "Manage the login of your account";
@@ -23,17 +22,20 @@ const showLenguaje = () => {
     btn1.textContent = "Reset / Unlock account";
     btn2.textContent = "Change account password";
     btn3.textContent = "Register or Update MFA media";
-    contactText.innerHTML = `<p>
-        If you require support, please contact
-        <a
-        class="mail"
-        href="mailto:soporte@prosalud.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >soporte@prosalud.com</a
-        >
-        </p>`;
-    footerText.textContent = "Food Technology Department Prosalud";
+    contactText.innerHTML = `
+        <div>
+          <p>
+            If you require support, please contact
+            <a
+              class="mail"
+              href="mailto:soporte@prosalud.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >soporte@prosalud.com</a
+            >
+          </p><br>
+          <p class="footer">Food Technology Department Prosalud</p>
+        </div>`;
   }
 
   if (lenguajes.value === "Español") {
@@ -44,16 +46,18 @@ const showLenguaje = () => {
     btn1.textContent = "Restablecer / Desbloquear cuenta";
     btn2.textContent = "Cambiar contraseña de cuenta";
     btn3.textContent = "Registrar o Actualizar medios de MFA";
-    contactText.innerHTML = `<p>
-          Si requiere soporte comuníquese a
-          <a
-            class="mail"
-            href="mailto:soporte@prosalud.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >soporte@prosalud.com</a
-          >
-        </p>`;
-    footerText.textContent = "Departamento de Tecnología Alimentos Prosalud";
+    contactText.innerHTML = `<div>
+          <p>
+            Si requiere soporte comuníquese a
+            <a
+              class="mail"
+              href="mailto:soporte@prosalud.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >soporte@prosalud.com</a
+            >
+          </p><br>
+          <p class="footer">Departamento de Tecnología Alimentos Prosalud</p>
+        </div>`;
   }
 };
